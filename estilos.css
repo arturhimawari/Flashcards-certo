@@ -13,8 +13,8 @@
 }
 
 .cartao {
-    width: 260px;
-    height: 200px;
+    width: 660px;
+    height: 260px;
 }
 
 .cartao-imagem {
@@ -33,6 +33,9 @@
 
     main{
         flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .cabecalho-link {
@@ -69,4 +72,8 @@
 
     .cartao-verso{
         transform: rotateY(180deg);
+    }
+
+    section {
+     display: flex;
     }
